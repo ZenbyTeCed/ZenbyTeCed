@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Peso Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <h1>PESO CONVERTER - Convert Into Other Currencies</h1>
+        <table class="input-table">
+
+            <tr>
+                <td><input id="pesoInput" class="input-peso" placeholder="Enter amount"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="dollar-button">American Dollar</button>
+                    <button class="yen-button">Yen</button>
+                    <button class="pound-button">Pound</button>
+                    <button class="euro-button">Euro</button>
+                    <button class="rouble-button">Rouble</button>
+                    <button class="yuan-button">Yuan</button>
+                    <button class="brazilian-button">Brazilian Real</button>
+                    <button class="sheqel-button">Sheqel</button>
+                    <button class="krone-button">Krone</button>
+                </td>
+            </tr>
+            
+            <!-- <tr>
+                <td><button class="convert-button">Convert</button></td>
+            </tr> -->
+        </table>
+
+        <img class="exchange-icon" alt="Exchange Icon" src="exchange-3-svgrepo-com.svg">
+
+        <table class="result-table">
+
+            <tr>
+                <td>
+                    Result
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <output id="resultOutput">0</output>
+                </td>
+            </tr>
+        </table>
+
+        <script src="script.js"></script>
+    </body>
+</html>
