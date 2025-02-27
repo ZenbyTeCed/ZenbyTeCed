@@ -37,35 +37,35 @@ function convertCurrency(currency, pesoAmount) {
 }
 
 function calculateAmerican(pesoAmount){
-    return pesoAmount * 57.8795;
+    return pesoAmount / 57.8795;
 }
 
 function calculateYen(pesoAmount){
-    return pesoAmount * 0.0067;
+    return pesoAmount / 0.0067;
 }
 
 function calculatePound(pesoAmount){
-    return pesoAmount * 1.2648;
+    return pesoAmount / 1.2648;
 }
 
 function calculateEuro(pesoAmount){
-    return pesoAmount * 1.0494;
+    return pesoAmount / 1.0494;
 }
 
 function calculateRouble(pesoAmount){
-    return pesoAmount * 0.0119;
+    return pesoAmount / 0.0119;
 }
 
 function calculateYuan(pesoAmount){
-    return pesoAmount * 0.1378;
+    return pesoAmount / 0.1378;
 }
 
 function calculateBrazil(pesoAmount){
-    return pesoAmount * 0.1740;
+    return pesoAmount / 0.1740;
 }
 
 function calculateSheqel(pesoAmount){
-    return pesoAmount * 1.1184;
+    return pesoAmount / 1.1184;
 }
 
 function calculateKrone(pesoAmount){
