@@ -1,0 +1,134 @@
+body{
+    font-family: Arial;
+    background-color: rgba(40, 40, 40, 0.142);
+    
+}
+
+button, td{
+    font-weight: bold;
+}
+
+table,
+h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.input-table{
+    border: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    width: 1000px;
+    border-color: rgb(135, 135, 135);
+    background-color: rgba(46, 46, 46, 0.351);
+    margin: 30px auto;
+}
+
+.result-table{
+    margin: 30px auto;
+    padding: 10px;
+    width: 530px;
+    border: solid;
+    border-width: 1.3px;
+    border-radius: 10px;
+    border-color: rgb(103, 103, 103);
+    background-color: rgba(115, 115, 115, 0.129);
+
+    transition: width .3s, background-color .3s;
+}
+
+.input-peso{
+    font-weight: bold;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    margin-top: 70px;
+
+    transition: background-color .3s, padding-left .3s, padding-right .3s;
+}
+
+.exchange-icon{
+    width: 80px;
+    display: block;
+    margin: auto; 
+}
+
+.result-table:hover{
+    width: 535px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dollar-button, 
+.yen-button, 
+.pound-button, 
+.euro-button, 
+.rouble-button, 
+.yuan-button,
+.brazilian-button,
+.sheqel-button,
+.krone-button{
+
+    display: inline-block;
+
+    background-color: rgb(211, 211, 211);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 34px;
+    padding-right: 23px;
+    margin-top: 75px;
+    
+    border: none;
+    border-radius: 2px;
+
+    transition: background-color 0.15s;
+}
+
+.input-peso::placeholder{
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+
+.input-peso:hover{
+    background-color: rgb(255, 255, 255);
+    padding-left: 113px;
+    padding-right: 113px;
+    
+}
+
+.convert-button:hover,
+.dollar-button:hover, 
+.yen-button:hover, 
+.pound-button:hover, 
+.euro-button:hover, 
+.rouble-button:hover, 
+.yuan-button:hover,
+.brazilian-button:hover,
+.sheqel-button:hover,
+.krone-button:hover{
+    background-color: rgb(251, 253, 255);
+}
+
+.convert-button:active,
+.dollar-button:active, 
+.yen-button:active, 
+.pound-button:active, 
+.euro-button:active, 
+.rouble-button:active, 
+.yuan-button:active,
+.brazilian-button:active,
+.sheqel-button:active,
+.krone-button:active{
+    opacity: 0.5;
+}
+
+.input-peso:focus{
+    outline: none;
+}
