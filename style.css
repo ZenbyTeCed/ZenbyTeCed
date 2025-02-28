@@ -1,134 +1,94 @@
 body{
-    font-family: Arial;
-    background-color: rgba(40, 40, 40, 0.142);
-    
+    /* background-color: rgb(0, 135, 81); */
+    background-color: white;
+    font-family: Helvetica;
 }
 
-button, td{
-    font-weight: bold;
-}
-
-table,
 h1{
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    font-size: 50px;
 }
-
-.input-table{
-    border: solid;
-    border-radius: 8px;
-    border-width: 1px;
-    width: 1000px;
-    border-color: rgb(135, 135, 135);
-    background-color: rgba(46, 46, 46, 0.351);
-    margin: 30px auto;
-}
-
-.result-table{
-    margin: 30px auto;
-    padding: 10px;
-    width: 530px;
-    border: solid;
-    border-width: 1.3px;
-    border-radius: 10px;
-    border-color: rgb(103, 103, 103);
-    background-color: rgba(115, 115, 115, 0.129);
-
-    transition: width .3s, background-color .3s;
-}
-
-.input-peso{
-    font-weight: bold;
-    background-color: rgb(202, 202, 202);
+h2{
     text-align: center;
-    font-size: 18px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 110px;
-    padding-right: 110px;
-    border: solid;
-    border-radius: 6px;
-    border-width: 1px;
-    margin-top: 70px;
-
-    transition: background-color .3s, padding-left .3s, padding-right .3s;
+    font-size: 30px;
+    margin-bottom: 5px;
+    /* color: RGB(226, 35, 26); */
+    color: rgb(0, 135, 81);
 }
 
-.exchange-icon{
-    width: 80px;
-    display: block;
-    margin: auto; 
+.payment-h2{
+    margin-top: 110px;
 }
 
-.result-table:hover{
-    width: 535px;
-    background-color: rgb(255, 255, 255);
-}
-
-.dollar-button, 
-.yen-button, 
-.pound-button, 
-.euro-button, 
-.rouble-button, 
-.yuan-button,
-.brazilian-button,
-.sheqel-button,
-.krone-button{
-
-    display: inline-block;
-
-    background-color: rgb(211, 211, 211);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 34px;
-    padding-right: 23px;
-    margin-top: 75px;
-    
-    border: none;
-    border-radius: 2px;
-
-    transition: background-color 0.15s;
-}
-
-.input-peso::placeholder{
-    color: rgb(37, 37, 37);
+td, th{
+    font-size: 20px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    padding-left: 100px;
     font-weight: bold;
 }
 
-.input-peso:hover{
-    background-color: rgb(255, 255, 255);
-    padding-left: 113px;
-    padding-right: 113px;
+button{ 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: RGB(245, 132, 38);
+
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+    transition: background-color, color .15s;
+}
+
+.title{
+    color: rgb(0, 135, 81);
+    font-size: 80px;
+}
+
+.item-text{
+    text-align: center;
+}
+
+.meal-table,
+.beverages-table,
+.snacks-table,
+.payout-table{
+    border: none;
+    border-radius: 10px;
+    /* border-color: RGB(245, 132, 38); */
+    border-width: 3px;
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+
+    border-spacing: 0;
+    table-layout: fixed;
+    
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    transition: width 0.4s, background-color 0.4s;
     
 }
 
-.convert-button:hover,
-.dollar-button:hover, 
-.yen-button:hover, 
-.pound-button:hover, 
-.euro-button:hover, 
-.rouble-button:hover, 
-.yuan-button:hover,
-.brazilian-button:hover,
-.sheqel-button:hover,
-.krone-button:hover{
-    background-color: rgb(251, 253, 255);
+.payout-table{
+    margin-top: 80px;
 }
 
-.convert-button:active,
-.dollar-button:active, 
-.yen-button:active, 
-.pound-button:active, 
-.euro-button:active, 
-.rouble-button:active, 
-.yuan-button:active,
-.brazilian-button:active,
-.sheqel-button:active,
-.krone-button:active{
-    opacity: 0.5;
+table:hover{
+    width: 810px;
+    background-color: rgba(0, 135, 81, 0.159);
 }
 
-.input-peso:focus{
-    outline: none;
+button:hover{
+    background-color: rgb(255, 224, 199);
+    color: RGB(245, 132, 38);
+}
+
+button:active{
+    opacity: 0.8;
 }
