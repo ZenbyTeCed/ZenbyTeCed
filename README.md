@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ZenbyTeCed
 - 👀 I’m interested in learning new things, and in singing as well
-- 🌱 I’m currently learning c language
+
 
 <!---
 ZenbyTeCed/ZenbyTeCed is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
