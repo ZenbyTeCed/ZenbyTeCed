@@ -1,51 +1,199 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Peso Converter</title>
+        <title>7Evelyn Store</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-
-        <h1>PESO CONVERTER - Convert Into Other Currencies</h1>
-        <table class="input-table">
-
+        <h1 class="title">7Evelyn Store</h1>
+        <h2>Hot Meals</h2>
+        <table class="meal-table">
             <tr>
-                <td><input id="pesoInput" class="input-peso" placeholder="Enter amount"></td>
+                <td class="item-text">Item</td>
+                <td colspan="2">Price</td>
             </tr>
-
             <tr>
-                <td>
-                    <button class="dollar-button">American Dollar</button>
-                    <button class="yen-button">Yen</button>
-                    <button class="pound-button">Pound</button>
-                    <button class="euro-button">Euro</button>
-                    <button class="rouble-button">Rouble</button>
-                    <button class="yuan-button">Yuan</button>
-                    <button class="brazilian-button">Brazilian Real</button>
-                    <button class="sheqel-button">Sheqel</button>
-                    <button class="krone-button">Krone</button>
-                </td>
+                <td>Big Bite Premium Beef Sausage</td>
+                <td>₱55</td>
+                <td><button data-price="55">Select</button></td>
             </tr>
-            
-            <!-- <tr>
-                <td><button class="convert-button">Convert</button></td>
-            </tr> -->
+            <tr>
+                <td>Crunch Time XL Rice (1pc Chicken with Rice)</td>
+                <td>₱99</td>
+                <td><button data-price="99">Select</button></td>
+            </tr>
+            <tr>
+                <td>7-Evelyn Pork Sisig</td>
+                <td>₱99</td>
+                <td><button data-price="99">Select</button></td>
+            </tr>
+            <tr>
+                <td>Beef Rendang</td>
+                <td>₱110</td>
+                <td><button data-price="110">Select</button></td>
+            </tr>
+            <tr>
+                <td>Beef Salpicao and Paella Negra</td>
+                <td>₱120</td>
+                <td><button data-price="120">Select</button></td>
+            </tr>
+            <tr>
+                <td>Sweet & Sour Meatballs</td>
+                <td>₱85</td>
+                <td><button data-price="85">Select</button></td>
+            </tr>
+            <tr>
+                <td>Sliced Pizza</td>
+                <td>₱50</td>
+                <td><button data-price="50">Select</button></td>
+            </tr>
+            <tr>
+                <td>Taiwanese Beef Noodles</td>
+                <td>₱120</td>
+                <td><button data-price="120">Select</button></td>
+            </tr>
+            <tr>
+                <td>Cheesy Holiday Ham Siopao</td>
+                <td>₱45</td>
+                <td><button data-price="45">Select</button></td>
+            </tr>
+            <tr>
+                <td>Lumpiang Shanghai (3 pcs)</td>
+                <td>₱55</td>
+                <td><button data-price="55">Select</button></td>
+            </tr>
         </table>
 
-        <img class="exchange-icon" alt="Exchange Icon" src="exchange-3-svgrepo-com.svg">
+        <h2>Beverages</h2>
 
-        <table class="result-table">
-
+        <table class="beverages-table">
             <tr>
-                <td>
-                    Result
-                </td>
+                <td class="item-text">Item</td>
+                <td colspan="2">Price</td>
             </tr>
             <tr>
+                <td>City Cafe Coffee</td>
+                <td>₱35</td>
+                <td><button data-price="35">Select</button></td>
+            </tr>
+            <tr>
+                <td>Slurpee</td>
+                <td>₱20</td>
+                <td><button data-price="20">Select</button></td>
+            </tr>
+            <tr>
+                <td>Gatorade Bolt</td>
+                <td>₱45</td>
+                <td><button data-price="45">Select</button></td>
+            </tr>
+            <tr>
+                <td>Mojito Mocktail</td>
+                <td>₱35</td>
+                <td><button data-price="35">Select</button></td>
+            </tr>
+            <tr>
+                <td>Mango Sago Drink</td>
+                <td>₱40</td>
+                <td><button data-price="40">Select</button></td>
+            </tr>
+            <tr>
+                <td>Bottled Water</td>
+                <td>₱15</td>
+                <td><button data-price="15">Select</button></td>
+            </tr>
+            <tr>
+                <td>Fruit Juice</td>
+                <td>₱30</td>
+                <td><button data-price="30">Select</button></td>
+            </tr>
+            <tr>
+                <td>Coca Cola(500ml)</td>
+                <td>₱35</td>
+                <td><button data-price="35">Select</button></td>
+            </tr>
+            <tr>
+                <td>Milk Tea</td>
+                <td>₱50</td>
+                <td><button data-price="50">Select</button></td>
+            </tr>
+            <tr>
+                <td>Red Bull</td>
+                <td>₱35</td>
+                <td><button data-price="35">Select</button></td>
+            </tr>
+        </table>
+
+        <h2>Snacks & Desserts</h2>
+
+        <table class="snacks-table">
+            <tr>
+                <td class="item-text">Item</td>
+                <td colspan="2">Price</td>
+            </tr>
+            <tr>
+                <td>7-Select Potato Chips</td>
+                <td>₱35</td>
+                <td><button data-price="35">Select</button></td>
+            </tr>
+            <tr>
+                <td>Ube Tikoy Rolls</td>
+                <td>₱45</td>
+                <td><button data-price="45">Select</button></td>
+            </tr>
+            <tr>
+                <td>Piattos(85g)</td>
+                <td>₱40</td>
+                <td><button data-price="40">Select</button></td>
+            </tr>
+            <tr>
+                <td>Nova Multigrain Chips(78g)</td>
+                <td>₱40</td>
+                <td><button data-price="40">Select</button></td>
+            </tr>
+            <tr>
+                <td>Chippy(110g)</td>
+                <td>₱40</td>
+                <td><button data-price="40">Select</button></td>
+            </tr>
+            <tr>
+                <td>Oreo(133g)</td>
+                <td>₱40</td>
+                <td><button data-price="40">Select</button></td>
+            </tr>
+            <tr>
+                <td>Fudgee Barr(10pcs)</td>
+                <td>₱60</td>
+                <td><button data-price="60">Select</button></td>
+            </tr>
+            <tr>
+                <td>Selecta Ice Cream</td>
+                <td>₱35</td>
+                <td><button data-price="35">Select</button></td>
+            </tr>
+            <tr>
+                <td>Magnum Ice Cream Bar</td>
+                <td>₱75</td>
+                <td><button data-price="75">Select</button></td>
+            </tr>
+            <tr>
+                <td>Cloud 9 Classic Chocolate Bar (30g)</td>
+                <td>₱15</td>
+                <td><button data-price="15">Select</button></td>
+            </tr>
+        </table>
+
+        <h2 class="payment-h2">Complete Payment</h2>
+
+        <table class="payout-table">
+            <tr>
                 <td>
-                    <output id="resultOutput">0</output>
+                    Total
                 </td>
+
+                <td><output id="totalPayout">₱0.00</output></td>
+
+                <td><button>Pay Now</button></td>
             </tr>
         </table>
 
